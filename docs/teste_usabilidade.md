@@ -64,8 +64,9 @@ conhecer o assunto e T6 tem um problema de linguagem no menu.
 
 ## 4. Teste com usuário real
 
-**Participante:** pessoa de cerca de 60 anos, que usa computador todos os dias no
-trabalho e não participou do desenvolvimento.
+**Participante:** pessoa de cerca de 60 anos que usa o notebook todos os dias no
+trabalho. Ela trabalha na área de TI, mas não é desenvolvedora e não tem familiaridade
+com programação nem com o uso de terminal. Não participou do desenvolvimento.
 
 **Como foi aplicado:** o autor explicou rapidamente como funciona o menu (digitar o
 número da opção e Enter). Depois disso, o participante fez as 6 tarefas sozinho, sem
@@ -89,8 +90,10 @@ por tarefa. O tempo foi estimado pelo autor, sem cronômetro tarefa a tarefa.
 
 - O teste confirma que o fluxo do menu é fácil de seguir: todas as tarefas foram
   concluídas sem ajuda, e a hesitação prevista na T6 ("Modelo A / Modelo B") não apareceu.
-- **Limitações do teste:** foi um único participante, acostumado a usar computador, e
-  houve uma explicação breve antes de começar. Por isso o resultado não mostra como seria
+- O participante não programa e não tinha usado um terminal, o que indica que a
+  interface de texto não exige conhecimento técnico depois de uma explicação curta.
+- **Limitações do teste:** foi um único participante, acostumado a usar computador no
+  trabalho, e houve uma explicação breve antes de começar. Por isso o resultado não mostra como seria
   o primeiro uso de alguém com pouca prática, que é o perfil considerado na seção 3.
 - Os ajustes da seção 3 continuam válidos para esse público menos experiente, e o
   próximo teste deve incluir pelo menos uma pessoa com esse perfil, sem explicação prévia.

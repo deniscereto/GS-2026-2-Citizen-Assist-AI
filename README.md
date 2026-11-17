@@ -231,8 +231,9 @@ de defeito -> Consumidor.gov.br -> Defensoria Pública.
 - **Percurso cognitivo:** 4 de 6 tarefas sem dificuldade prevista. O principal
   problema encontrado foi de linguagem: "Modelo A / Modelo B" no menu não diz nada
   ao cidadão e deve virar "Resposta curta / Resposta detalhada".
-- **Teste com usuário real:** um participante de cerca de 60 anos, que usa computador
-  no trabalho, concluiu as 6 tarefas sozinho, em cerca de 10 a 20 segundos cada, e deu
+- **Teste com usuário real:** um participante de cerca de 60 anos, que usa o notebook
+  no trabalho (área de TI, mas sem experiência em programação ou terminal), concluiu
+  as 6 tarefas sozinho, em cerca de 10 a 20 segundos cada, e deu
   nota 5 de 5 para a facilidade de uso. Como foi um único participante, com
   experiência em computador e uma explicação breve antes, o teste ainda precisa ser
   repetido com pessoas de pouca prática.

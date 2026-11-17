@@ -1,0 +1,17 @@
+{
+  "descricao": "Perguntas de validação escritas DEPOIS do ajuste dos parâmetros da busca. Elas não foram usadas para calibrar o sistema e servem para medir o desempenho em perguntas novas.",
+  "perguntas": [
+    {"n": 1,  "tipo": "reformulada",  "pergunta": "Minha CTPS física ainda serve para alguma coisa?",           "esperado": "respondida",   "id_esperado": "DOC04"},
+    {"n": 2,  "tipo": "reformulada",  "pergunta": "Como sei onde vou votar?",                                   "esperado": "respondida",   "id_esperado": "DOC03"},
+    {"n": 3,  "tipo": "reformulada",  "pergunta": "Quanto custa a primeira via do RG novo?",                    "esperado": "respondida",   "id_esperado": "DOC01"},
+    {"n": 4,  "tipo": "reformulada",  "pergunta": "Como deixo minha conta do gov mais segura com selo ouro?",   "esperado": "respondida",   "id_esperado": "SER01"},
+    {"n": 5,  "tipo": "reformulada",  "pergunta": "Meu pai quer dar entrada na aposentadoria, por onde começa?", "esperado": "respondida",   "id_esperado": "SER04"},
+    {"n": 6,  "tipo": "reformulada",  "pergunta": "Pedi um produto pelo telefone e quero cancelar",             "esperado": "respondida",   "id_esperado": "DIR01"},
+    {"n": 7,  "tipo": "reformulada",  "pergunta": "Tem incêndio no prédio ao lado!",                            "esperado": "respondida",   "id_esperado": "COM01"},
+    {"n": 8,  "tipo": "reformulada",  "pergunta": "Estou sofrendo violência doméstica, onde peço ajuda?",       "esperado": "respondida",   "id_esperado": "COM04"},
+    {"n": 9,  "tipo": "reformulada",  "pergunta": "A empresa não respondeu minha reclamação, e agora?",         "esperado": "respondida",   "id_esperado": "DIR03"},
+    {"n": 10, "tipo": "fora_do_tema", "pergunta": "Como faço para tirar a CNH?",                                "esperado": "sem_resposta", "id_esperado": null},
+    {"n": 11, "tipo": "fora_do_tema", "pergunta": "Qual o melhor time do Brasil?",                              "esperado": "sem_resposta", "id_esperado": null},
+    {"n": 12, "tipo": "limitacao",    "pergunta": "documento",                                                  "esperado": "ambigua",      "id_esperado": null}
+  ]
+}

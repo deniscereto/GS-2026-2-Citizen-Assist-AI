@@ -1,0 +1,29 @@
+{
+  "descricao": "Perguntas de teste do Citizen Assist AI. 'esperado' é a situação esperada; 'id_esperado' é a orientação correta (quando houver). As perguntas foram escritas com palavras diferentes das usadas na base sempre que possível.",
+  "perguntas": [
+    {"n": 1,  "tipo": "direta",        "pergunta": "Como faço a nova carteira de identidade?",                         "esperado": "respondida",   "id_esperado": "DOC01"},
+    {"n": 2,  "tipo": "direta",        "pergunta": "Como consultar a situação do meu CPF?",                             "esperado": "respondida",   "id_esperado": "DOC02"},
+    {"n": 3,  "tipo": "direta",        "pergunta": "Onde baixo o título de eleitor digital?",                           "esperado": "respondida",   "id_esperado": "DOC03"},
+    {"n": 4,  "tipo": "direta",        "pergunta": "Como pedir seguro-desemprego?",                                     "esperado": "respondida",   "id_esperado": "SER02"},
+    {"n": 5,  "tipo": "direta",        "pergunta": "Qual o telefone do INSS?",                                          "esperado": "respondida",   "id_esperado": "SER04"},
+    {"n": 6,  "tipo": "direta",        "pergunta": "Onde reclamar de uma empresa pela internet?",                       "esperado": "respondida",   "id_esperado": "DIR03"},
+    {"n": 7,  "tipo": "reformulada",   "pergunta": "Perdi o papel do meu nascimento, como consigo outro?",              "esperado": "respondida",   "id_esperado": "DOC05"},
+    {"n": 8,  "tipo": "reformulada",   "pergunta": "Me mandaram embora da empresa, recebo alguma ajuda do governo?",    "esperado": "respondida",   "id_esperado": "SER02"},
+    {"n": 9,  "tipo": "reformulada",   "pergunta": "Comprei um tênis no site e me arrependi, dá pra devolver?",         "esperado": "respondida",   "id_esperado": "DIR01"},
+    {"n": 10, "tipo": "reformulada",   "pergunta": "A geladeira que comprei parou de funcionar, a loja tem que trocar?", "esperado": "respondida",   "id_esperado": "DIR02"},
+    {"n": 11, "tipo": "reformulada",   "pergunta": "Não tenho condições de pagar um advogado",                          "esperado": "respondida",   "id_esperado": "DIR04"},
+    {"n": 12, "tipo": "reformulada",   "pergunta": "Está chovendo muito e o barranco atrás de casa pode cair",          "esperado": "respondida",   "id_esperado": "COM02"},
+    {"n": 13, "tipo": "reformulada",   "pergunta": "Vi um idoso sendo maltratado pelo vizinho, como denuncio?",         "esperado": "respondida",   "id_esperado": "COM03"},
+    {"n": 14, "tipo": "reformulada",   "pergunta": "Como faço para receber o Bolsa Família?",                           "esperado": "respondida",   "id_esperado": "SER03"},
+    {"n": 15, "tipo": "reformulada",   "pergunta": "A carteirinha do SUS mudou para o número do CPF?",                  "esperado": "respondida",   "id_esperado": "SER05"},
+    {"n": 16, "tipo": "erro_digitacao", "pergunta": "como pedir o seguro desenprego",                                   "esperado": "respondida",   "id_esperado": "SER02"},
+    {"n": 17, "tipo": "fora_do_tema",  "pergunta": "Qual a previsão do tempo para amanhã?",                             "esperado": "sem_resposta", "id_esperado": null},
+    {"n": 18, "tipo": "fora_do_tema",  "pergunta": "Como renovar o passaporte?",                                        "esperado": "sem_resposta", "id_esperado": null},
+    {"n": 19, "tipo": "fora_do_tema",  "pergunta": "Me passa uma receita de bolo de cenoura",                           "esperado": "sem_resposta", "id_esperado": null},
+    {"n": 20, "tipo": "limitacao",     "pergunta": "",                                                                  "esperado": "invalida",     "id_esperado": null},
+    {"n": 21, "tipo": "limitacao",     "pergunta": "???!!",                                                             "esperado": "invalida",     "id_esperado": null},
+    {"n": 22, "tipo": "limitacao",     "pergunta": "carteira",                                                          "esperado": "ambigua",      "id_esperado": null},
+    {"n": 23, "tipo": "limitacao",     "pergunta": "Quero denunciar uma violência",                                     "esperado": "ambigua",      "id_esperado": null},
+    {"n": 24, "tipo": "privacidade",   "pergunta": "Meu CPF é 123.456.789-09, ele está regular?",                       "esperado": "respondida",   "id_esperado": "DOC02"}
+  ]
+}

@@ -213,6 +213,7 @@ de defeito -> Consumidor.gov.br -> Defensoria Pública.
 | Comparação de modelos | Critérios objetivos de A e B nas mesmas perguntas | `python src/avaliacao.py` |
 | Roteiro de tarefas | 6 tarefas de uso simuladas no menu | `python src/avaliacao.py` |
 | Percurso cognitivo | As mesmas 6 tarefas avaliadas no lugar de um usuário típico | [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md) |
+| Teste com usuário real | As 6 tarefas feitas por uma pessoa que não participou do projeto | [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md) |
 | 22 testes unitários | Validação da base, busca, privacidade, grafo, trie e heap | `python -m pytest` |
 
 ### Resultados
@@ -230,6 +231,11 @@ de defeito -> Consumidor.gov.br -> Defensoria Pública.
 - **Percurso cognitivo:** 4 de 6 tarefas sem dificuldade prevista. O principal
   problema encontrado foi de linguagem: "Modelo A / Modelo B" no menu não diz nada
   ao cidadão e deve virar "Resposta curta / Resposta detalhada".
+- **Teste com usuário real:** um participante de cerca de 60 anos, que usa computador
+  no trabalho, concluiu as 6 tarefas sozinho, em cerca de 10 a 20 segundos cada, e deu
+  nota 5 de 5 para a facilidade de uso. Como foi um único participante, com
+  experiência em computador e uma explicação breve antes, o teste ainda precisa ser
+  repetido com pessoas de pouca prática.
 - O relatório completo, com as 36 perguntas, a resposta esperada, a obtida, o
   acerto e o tempo de cada uma, está em [`docs/resultados_avaliacao.md`](docs/resultados_avaliacao.md).
 

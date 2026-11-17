@@ -1,6 +1,6 @@
 # Teste de facilidade de uso
 
-O teste de facilidade de uso tem duas partes:
+O teste de facilidade de uso tem três partes:
 
 1. **Roteiro de tarefas automatizado**: o script `src/avaliacao.py` simula uma pessoa
    usando o menu e confere se cada tarefa termina com a informação certa. O resultado
@@ -8,6 +8,8 @@ O teste de facilidade de uso tem duas partes:
    `docs/resultados_avaliacao.md`.
 2. **Avaliação por percurso cognitivo**: o autor percorre as mesmas tarefas no lugar de
    um usuário típico e registra as dificuldades previstas (seção 3).
+3. **Teste com usuário real**: as mesmas tarefas feitas por uma pessoa que não
+   participou do desenvolvimento (seção 4).
 
 ## 1. Roteiro de tarefas
 
@@ -60,8 +62,35 @@ conhecer o assunto e T6 tem um problema de linguagem no menu.
 3. No menu de temas, mostrar exemplos de assuntos ao lado de cada tema (ex.: "Direitos
    do consumidor: compras, defeitos, reclamações").
 
-## 4. Próximo passo: teste com usuário real
+## 4. Teste com usuário real
 
-A avaliação acima deve ser confirmada com uma pessoa real, aplicando o mesmo roteiro
-(cerca de 10 minutos): ler uma tarefa por vez sem indicar a opção do menu, marcar o
-tempo, anotar hesitações e pedir uma nota de 1 a 5 para a facilidade de uso.
+**Participante:** pessoa de cerca de 60 anos, que usa computador todos os dias no
+trabalho e não participou do desenvolvimento.
+
+**Como foi aplicado:** o autor explicou rapidamente como funciona o menu (digitar o
+número da opção e Enter). Depois disso, o participante fez as 6 tarefas sozinho, sem
+indicação de qual opção escolher.
+
+| Tarefa | Concluiu sozinho? | Tempo aproximado | Dificuldade observada |
+|---|---|---|---|
+| T1 — telefone do INSS | Sim | 10 a 20 s | Nenhuma |
+| T2 — arrependimento pelos temas | Sim | 10 a 20 s | Nenhuma |
+| T3 — assunto relacionado | Sim | 10 a 20 s | Nenhuma |
+| T4 — pergunta fora do tema | Sim | 10 a 20 s | Nenhuma |
+| T5 — pergunta ambígua | Sim | 10 a 20 s | Nenhuma |
+| T6 — formato curto | Sim | 10 a 20 s | Nenhuma |
+
+**Nota de facilidade de uso:** 5 de 5.
+
+**Indicadores:** taxa de conclusão sem ajuda = 6 de 6 (100%); tempo de 10 a 20 segundos
+por tarefa. O tempo foi estimado pelo autor, sem cronômetro tarefa a tarefa.
+
+**Interpretação:**
+
+- O teste confirma que o fluxo do menu é fácil de seguir: todas as tarefas foram
+  concluídas sem ajuda, e a hesitação prevista na T6 ("Modelo A / Modelo B") não apareceu.
+- **Limitações do teste:** foi um único participante, acostumado a usar computador, e
+  houve uma explicação breve antes de começar. Por isso o resultado não mostra como seria
+  o primeiro uso de alguém com pouca prática, que é o perfil considerado na seção 3.
+- Os ajustes da seção 3 continuam válidos para esse público menos experiente, e o
+  próximo teste deve incluir pelo menos uma pessoa com esse perfil, sem explicação prévia.

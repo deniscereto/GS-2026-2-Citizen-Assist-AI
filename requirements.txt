@@ -1,0 +1,6 @@
+# O assistente (src/sistema.py) usa apenas a biblioteca padrão do Python 3.10+.
+# Os pacotes abaixo são necessários só para os testes, o gráfico e o notebook.
+pytest>=7.0
+matplotlib>=3.7
+pandas>=2.0
+jupyter>=1.0

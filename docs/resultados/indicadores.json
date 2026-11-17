@@ -1,0 +1,92 @@
+{
+  "carga_da_base_ms": 5.45,
+  "conjuntos": {
+    "teste": {
+      "perguntas": 24,
+      "acertos": 24,
+      "taxa_acerto": 100.0,
+      "tempo_medio_ms": 0.3074,
+      "tempo_mediano_ms": 0.1562,
+      "tempo_maximo_ms": 0.9005,
+      "por_tipo": {
+        "direta": {
+          "perguntas": 6,
+          "acertos": 6
+        },
+        "reformulada": {
+          "perguntas": 9,
+          "acertos": 9
+        },
+        "erro_digitacao": {
+          "perguntas": 1,
+          "acertos": 1
+        },
+        "fora_do_tema": {
+          "perguntas": 3,
+          "acertos": 3
+        },
+        "limitacao": {
+          "perguntas": 4,
+          "acertos": 4
+        },
+        "privacidade": {
+          "perguntas": 1,
+          "acertos": 1
+        }
+      }
+    },
+    "validacao": {
+      "perguntas": 12,
+      "acertos": 9,
+      "taxa_acerto": 75.0,
+      "tempo_medio_ms": 0.2482,
+      "tempo_mediano_ms": 0.1456,
+      "tempo_maximo_ms": 0.5364,
+      "por_tipo": {
+        "reformulada": {
+          "perguntas": 9,
+          "acertos": 7
+        },
+        "fora_do_tema": {
+          "perguntas": 2,
+          "acertos": 2
+        },
+        "limitacao": {
+          "perguntas": 1,
+          "acertos": 0
+        }
+      }
+    }
+  },
+  "modelos": {
+    "A": {
+      "cita_link_da_fonte": 100.0,
+      "cita_orgao_da_fonte": 0.0,
+      "mostra_data_de_verificacao": 0.0,
+      "aviso_quando_necessario": 47.1,
+      "organizado_em_topicos": 0.0,
+      "palavras_por_frase": 12.4,
+      "indice_flesch": 60.4,
+      "sem_resposta_explica_limite": 0.0,
+      "sem_resposta_indica_caminho": 0.0,
+      "checklist_medio": 29.4
+    },
+    "B": {
+      "cita_link_da_fonte": 100.0,
+      "cita_orgao_da_fonte": 100.0,
+      "mostra_data_de_verificacao": 100.0,
+      "aviso_quando_necessario": 100.0,
+      "organizado_em_topicos": 100.0,
+      "palavras_por_frase": 10.1,
+      "indice_flesch": 59.5,
+      "sem_resposta_explica_limite": 100.0,
+      "sem_resposta_indica_caminho": 100.0,
+      "checklist_medio": 100.0
+    }
+  },
+  "roteiro": {
+    "tarefas": 6,
+    "concluidas": 6,
+    "passos_medios": 2.7
+  }
+}

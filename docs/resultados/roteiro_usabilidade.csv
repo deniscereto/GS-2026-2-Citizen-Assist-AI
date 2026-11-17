@@ -1,0 +1,7 @@
+id;tarefa;passos;concluida;mensagens_de_erro;tempo_execucao_ms
+T1;Descobrir o telefone do INSS fazendo uma pergunta;2;sim;0;76.8
+T2;Achar o direito de arrependimento navegando pelos temas;4;sim;0;71.6
+T3;A partir de uma resposta, abrir um assunto relacionado;3;sim;0;71.1
+T4;Fazer uma pergunta fora do tema e entender o aviso;3;sim;0;76.1
+T5;Resolver uma pergunta ambígua escolhendo a opção certa;3;sim;0;74.6
+T6;Trocar para o formato de resposta curto;1;sim;0;75.7

@@ -1,0 +1,37 @@
+conjunto;n;tipo;pergunta;esperado;id_esperado;obtido;id_obtido;pontuacao;acerto;tempo_ms
+teste;1;direta;Como faço a nova carteira de identidade?;respondida;DOC01;respondida;DOC01;0.9551;acerto;0.1401
+teste;2;direta;Como consultar a situação do meu CPF?;respondida;DOC02;respondida;DOC02;0.6806;acerto;0.1245
+teste;3;direta;Onde baixo o título de eleitor digital?;respondida;DOC03;respondida;DOC03;1.0;acerto;0.153
+teste;4;direta;Como pedir seguro-desemprego?;respondida;SER02;respondida;SER02;0.8753;acerto;0.1594
+teste;5;direta;Qual o telefone do INSS?;respondida;SER04;respondida;SER04;0.8121;acerto;0.1127
+teste;6;direta;Onde reclamar de uma empresa pela internet?;respondida;DIR03;respondida;DIR03;0.7475;acerto;0.1334
+teste;7;reformulada;Perdi o papel do meu nascimento, como consigo outro?;respondida;DOC05;respondida;DOC05;0.3671;acerto;0.1564
+teste;8;reformulada;Me mandaram embora da empresa, recebo alguma ajuda do governo?;respondida;SER02;respondida;SER02;0.2556;acerto;0.5775
+teste;9;reformulada;Comprei um tênis no site e me arrependi, dá pra devolver?;respondida;DIR01;respondida;DIR01;0.2761;acerto;0.6202
+teste;10;reformulada;A geladeira que comprei parou de funcionar, a loja tem que trocar?;respondida;DIR02;respondida;DIR02;0.5453;acerto;0.9005
+teste;11;reformulada;Não tenho condições de pagar um advogado;respondida;DIR04;respondida;DIR04;0.5556;acerto;0.1561
+teste;12;reformulada;Está chovendo muito e o barranco atrás de casa pode cair;respondida;COM02;respondida;COM02;0.3172;acerto;0.524
+teste;13;reformulada;Vi um idoso sendo maltratado pelo vizinho, como denuncio?;respondida;COM03;respondida;COM03;0.3228;acerto;0.807
+teste;14;reformulada;Como faço para receber o Bolsa Família?;respondida;SER03;respondida;SER03;0.8333;acerto;0.1702
+teste;15;reformulada;A carteirinha do SUS mudou para o número do CPF?;respondida;SER05;respondida;SER05;0.5946;acerto;0.156
+teste;16;erro_digitacao;como pedir o seguro desenprego;respondida;SER02;respondida;SER02;0.6253;acerto;0.4891
+teste;17;fora_do_tema;Qual a previsão do tempo para amanhã?;sem_resposta;;sem_resposta;;0.0;acerto;0.5224
+teste;18;fora_do_tema;Como renovar o passaporte?;sem_resposta;;sem_resposta;;0.0;acerto;0.8096
+teste;19;fora_do_tema;Me passa uma receita de bolo de cenoura;sem_resposta;;sem_resposta;;0.1907;acerto;0.464
+teste;20;limitacao;;invalida;;invalida;;0.0;acerto;0.0003
+teste;21;limitacao;???!!;invalida;;invalida;;0.0;acerto;0.0024
+teste;22;limitacao;carteira;ambigua;;ambigua;DOC01/DOC04;0.6667;acerto;0.0219
+teste;23;limitacao;Quero denunciar uma violência;ambigua;;ambigua;COM03/COM04;0.75;acerto;0.0312
+teste;24;privacidade;Meu CPF é 123.456.789-09, ele está regular?;respondida;DOC02;respondida;DOC02;0.4334;acerto;0.1466
+validacao;1;reformulada;Minha CTPS física ainda serve para alguma coisa?;respondida;DOC04;respondida;DOC04;0.5;acerto;0.133
+validacao;2;reformulada;Como sei onde vou votar?;respondida;DOC03;respondida;DOC03;0.4016;acerto;0.1452
+validacao;3;reformulada;Quanto custa a primeira via do RG novo?;respondida;DOC01;respondida;DOC01;0.3689;acerto;0.146
+validacao;4;reformulada;Como deixo minha conta do gov mais segura com selo ouro?;respondida;SER01;respondida;SER01;0.2792;acerto;0.1782
+validacao;5;reformulada;Meu pai quer dar entrada na aposentadoria, por onde começa?;respondida;SER04;sem_resposta;;0.1439;erro;0.5209
+validacao;6;reformulada;Pedi um produto pelo telefone e quero cancelar;respondida;DIR01;sem_resposta;;0.1647;erro;0.0908
+validacao;7;reformulada;Tem incêndio no prédio ao lado!;respondida;COM01;respondida;COM01;0.3539;acerto;0.4747
+validacao;8;reformulada;Estou sofrendo violência doméstica, onde peço ajuda?;respondida;COM04;respondida;COM04;0.5715;acerto;0.5364
+validacao;9;reformulada;A empresa não respondeu minha reclamação, e agora?;respondida;DIR03;respondida;DIR03;0.5556;acerto;0.1391
+validacao;10;fora_do_tema;Como faço para tirar a CNH?;sem_resposta;;sem_resposta;;0.0;acerto;0.0685
+validacao;11;fora_do_tema;Qual o melhor time do Brasil?;sem_resposta;;sem_resposta;;0.0;acerto;0.4316
+validacao;12;limitacao;documento;ambigua;;respondida;DOC01;0.6667;erro;0.1139

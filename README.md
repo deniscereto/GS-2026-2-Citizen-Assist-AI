@@ -360,7 +360,7 @@ Pergunta: Meu CPF é 123.456.789-09, ele está regular?
 
 ### 🔗 Links do Projeto
 
-* **[Vídeo de apresentação no YouTube](LINK-DO-VIDEO)** — demonstração do assistente e explicação da solução.
+* **[Vídeo de apresentação no YouTube](https://youtu.be/DzwWjxbdkQU)** — demonstração do assistente e explicação da solução.
 
 ### 🧠 Decisões Técnicas
 
